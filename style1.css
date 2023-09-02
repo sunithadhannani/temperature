@@ -1,0 +1,44 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    background-image: url("/images/temp.webp");
+    height: 200%;
+    width: 100%;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+}
+.container {
+    margin-left: 35%;
+    margin-top: 15%;
+    max-width: 400px;
+    background-color:#fff;
+    padding: 20px;
+    text-align: center;
+}
+h1 {
+    text-align: center;
+}
+label {
+    display: block;
+    margin-bottom: 10px;
+}
+input[type="number"] {
+    width: 90%;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+p.result {
+    font-weight: bold;
+    text-align: center;
+    margin-top: 20px;
+}
